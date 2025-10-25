@@ -39,7 +39,7 @@ export default function SkillsSection() {
         viewport={{ once: true }}
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
       >
-        {skillCategories.map((category, index) => (
+        {skillCategories.map((category) => (
           <motion.div
             key={category.category}
             variants={itemVariants}

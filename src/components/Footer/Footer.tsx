@@ -1,9 +1,8 @@
 import { motion } from 'framer-motion';
-import { Heart, Mail, Github, Linkedin } from 'lucide-react';
+import { Mail, Github, Linkedin } from 'lucide-react';
 import { personalInfo } from '../../data/skills';
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-gradient-to-b from-surface/30 to-primary/10 py-12 px-4">
